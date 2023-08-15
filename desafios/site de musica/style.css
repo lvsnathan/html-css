@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(fontes/montserrat.ttf) format('truetype');
+}
+
+:root {
+    --cor1: #C4B9AF;
+    --cor2: #6F6861;
+    --cor3: #86572E;
+    --cor4: #6d6148;
+    --cor5: #;
+
+    --fonte1: 'montserrat';
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    background-color: var(--cor2);
+    margin: 0px 300px 0px 300px;
+    box-shadow: 1px 1px 7px black;
+    border-radius: 10px;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: var(--fonte1);
+    padding-top: 17px;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.37);
+}
+
+header > div {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+main {
+    background-color: var(--cor3);
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--fonte1);
+    text-shadow: 1px 1px 7px white;
+}
+
+main ul li {
+    columns: 2;
+}
+
+
+
+
