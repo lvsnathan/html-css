@@ -1,0 +1,12 @@
+body {
+    border: 1px solid red;
+    height: 100vh;
+}
+header {
+    border: 5px solid red;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
