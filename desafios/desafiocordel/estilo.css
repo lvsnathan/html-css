@@ -1,12 +1,38 @@
+@font-face {
+    font-family: 'PassionOne';
+    src: url(fontes/PassionOne-Regular.ttf);
+}
+
+
 body {
     border: 1px solid red;
     height: 100vh;
 }
+
+/*Cabeçalho*/
+
 header {
-    border: 5px solid red;
-    width: 100%;
+    border: 1px solid red;
     background-color: black;
     color: white;
+    width: 100%;
     text-align: center;
+    position: fixed;
     
 }
+
+h1 {
+    border: 1px solid red;
+    font-family: 'PassionOne';
+    letter-spacing: 1px;
+    padding-top: 10px;
+    margin: ;
+}
+
+p {
+    border: 2px solid red;
+    font-family: sans-serif;
+}
+
+/*Conteudo*/
+
