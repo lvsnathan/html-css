@@ -12,6 +12,10 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            background-image: url(download.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
         }
 
         caption {
@@ -19,6 +23,13 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+
         }
 
         th, td {
@@ -33,10 +44,6 @@
         td.num {
             text-align: right;
         }
-
-        
-
-
 
         thead, tfoot {
             background-color: gray;
